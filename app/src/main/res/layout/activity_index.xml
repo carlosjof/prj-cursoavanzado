@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.UploadContent"
+    android:background="@color/colorBlanco">
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@string/string_todo"
+        android:src="@drawable/logo_letras" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dp"
+        android:background="#A6A6A6" />
+
+    <View
+        android:layout_width="2sp"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#A6A6A6" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="2sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:background="#A6A6A6" />
+
+    <TextView
+        android:id="@+id/txtback_activity_index"
+        android:layout_width="39dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="338sp"
+        android:layout_marginTop="5sp"
+        android:text="@string/r"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="219dp" />
+
+    <ImageView
+        android:id="@+id/img_activity_index_foto"
+        android:layout_width="346dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="129dp"
+        android:contentDescription="@string/string_todo" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="179dp"
+        android:layout_marginLeft="25sp"
+        android:text="@string/descripci_n" />
+
+    <EditText
+        android:id="@+id/txtDetails"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="124dp" />
+
+    <EditText
+        android:id="@+id/txtLocation"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="69dp"
+        android:textSize="10sp" />
+
+    <ImageButton
+        android:id="@+id/btn_activity_index_picture"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="20sp"
+        android:background="@color/colorBlanco"
+        android:contentDescription="@string/string_todo"
+        android:src="@drawable/galeria"
+        android:text="@string/tomar_foto" />
+
+    <TextView
+        android:id="@+id/galeria"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="70sp"
+        android:textColor="#000"
+        android:text="@string/galeria"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/btn_activity_index_uppicture"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="505sp"
+        android:layout_marginLeft="205sp"
+        android:background="@color/colorBlanco"
+        android:contentDescription="@string/string_todo"
+        android:src="@drawable/send"
+        android:text="@string/publicar" />
+
+    <TextView
+        android:id="@+id/publicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="250sp"
+        android:textColor="#000"
+        android:text="@string/publicar"
+        android:textSize="20sp" />
+
+</RelativeLayout>

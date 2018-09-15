@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "58067542730",
+    "firebase_url": "https://prjreport-efda4.firebaseio.com",
+    "project_id": "prjreport-efda4",
+    "storage_bucket": "prjreport-efda4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58067542730:android:e4db572c34333058",
+        "android_client_info": {
+          "package_name": "com.example.carlosjof.prjreport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58067542730-b106i7qlao2gro7s8lv7271g1mq8jl8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carlosjof.prjreport",
+            "certificate_hash": "e4f30749d2d462b5e11a71475141a82231e30db0"
+          }
+        },
+        {
+          "client_id": "58067542730-s70jj67kiea8a9lmov29lc2ldo06f766.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL4lBnuZqhIf0ksUSr_vH0O6QLHiwuvjs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58067542730-s70jj67kiea8a9lmov29lc2ldo06f766.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

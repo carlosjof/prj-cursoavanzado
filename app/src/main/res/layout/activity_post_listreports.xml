@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.ShowPost"
+    android:background="@color/colorBlanco">
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@string/string_todo"
+        android:src="@drawable/logo_letras" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="2sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:background="#A6A6A6" />
+
+    <ImageButton
+        android:id="@+id/btnupload_activity_post"
+        android:background="@color/colorBlanco"
+        android:layout_marginTop="7sp"
+        android:src="@drawable/add"
+        android:layout_width="49dp"
+        android:layout_height="39dp"
+        android:text="@string/publicar" />
+
+    <ImageButton
+        android:src="@drawable/userinfo"
+        android:background="@color/colorBlanco"
+        android:layout_marginTop="7sp"
+        android:id="@+id/btn_activity_post_logout"
+        android:layout_width="49sp"
+        android:layout_height="39sp"
+        android:layout_marginLeft="320sp"
+        android:text="@string/logout" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_activity_post"
+        android:layout_width="match_parent"
+        android:layout_height="501dp"
+        android:layout_alignParentBottom="true">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

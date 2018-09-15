@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">prjreport</string>
+    <string name="Correo">Correo</string>
+    <string name="logout">Logout</string>
+    <string name="tomar_foto">Elegir Imagen</string>
+    <string name="inicio_sesion">Inicio de Sesión</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="crear_cuenta">Crear Cuenta!</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="nueva_cuenta">Nueva Cuenta</string>
+    <string name="ya_est_s_registrado_pulsa_aqu">¿Ya estás registrado? Pulsa Aquí</string>
+    <string name="crearnuevacuenta">Crear Cuenta</string>
+    <string name="publicar">Publicar</string>
+    <string name="galeria">Galería</string>
+    <string name="string_todo">string/todo</string>
+    <string name="r"><![CDATA[>]]></string>
+    <string name="descripci_n">Descripción</string>
+</resources>
